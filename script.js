@@ -23,7 +23,7 @@ player2Win.setAttribute(`id`, `p2`)
 
 //start game button 
 const startGame = document.getElementById('btn-1')
-const count = 0;
+let count = 0;
 startGame.addEventListener('click', function () {
     
     if (count < 1) {
